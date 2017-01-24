@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">WOTracker</string>
+    <string name="action_settings">Settings</string>
+    <string name="workout_selector">Select Workout to record</string>
+    <string name="record_workout">Record Workout</string>
+    <string name="review_workouts">Review Workouts</string>
+    <string name="select_workout">Select the workout to Record</string>
+    <string name="push_ups">Push Ups</string>
+    <string name="sit_ups">Sit Ups</string>
+    <string name="curls">Curls</string>
+    <string name="curl_weight">Curl Weight</string>
+    <string name="overheads">Overheads</string>
+    <string name="overhead_weight">Overhead Weight</string>
+    <string name="rows">Rows</string>
+    <string name="row_weight">Row Weight</string>
+    <string name="ab_carver_pro">AbCarverPro</string>
+    <string name="back_exts">Back Ext.</string>
+    <string name="dips">Dips</string>
+    <string name="exercise">Exercise</string>
+    <string name="set1">Set 1</string>
+    <string name="set2">Set 2</string>
+    <string name="set3">Set 3</string>
+    <string name="record">Record</string>
+    <string name="cancel">Cancel</string>
+    <string name="workout1">Workout #1</string>
+    <string name="workout2">Workout #2</string>
+    <string name="eliptical">Eliptical</string>
+    <string name="wo_started">Date:</string>
+    <string name="date_button_set">Set Date</string>
+    <string name="total_time">Time(mins)</string>
+    <string name="course">Course</string>
+    <string name="strides">Strides</string>
+    <string name="calories">Calories</string>
+    <string name="resistance">Resistance</string>
+</resources>

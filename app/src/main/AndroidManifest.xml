@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rwin336.com.wotracker1">
+
+    <application
+        android:theme="@style/Theme.AppCompat.DayNight"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".WoMainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RecordWorkout1Activity"
+            android:label="Workout 1:"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".RecordWorkout2Activity"
+            android:label="Workout 2:"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ElipticalWorkout"
+            android:label="Eliptical Workout:"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>
