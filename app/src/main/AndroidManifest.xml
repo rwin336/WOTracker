@@ -29,6 +29,17 @@
             android:name=".ElipticalWorkout"
             android:label="Eliptical Workout:"
             android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ExerciseManager"
+            android:label="Exercise Manager"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WorkoutManager"
+            android:label="Workout Manager"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

@@ -83,6 +83,15 @@ public class WoMainActivity extends AppCompatActivity {
         Log.d(TAG, "Review Past workouts");
     }
 
+    public void createWorkout(View v) {
+        Log.d(TAG, "Create Workout");
+    }
+
+    public void createExercise(View v) {
+        Log.d(TAG, "Create Exercise");
+    }
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

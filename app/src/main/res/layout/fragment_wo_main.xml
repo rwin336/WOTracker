@@ -12,23 +12,59 @@
     tools:showIn="@layout/activity_wo_main">
 
     <LinearLayout
+
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <Button
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/record_workout"
+                android:onClick="recordWorkout"
+                android:padding="@dimen/activity_horizontal_margin"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/review_workouts"
+                android:onClick="reviewPastWorkouts"
+                android:padding="@dimen/activity_horizontal_margin"/>
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
             android:layout_height="wrap_content"
-            android:text="@string/record_workout"
-            android:onClick="recordWorkout"
-            android:padding="@dimen/activity_horizontal_margin"/>
+            android:orientation="horizontal">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/review_workouts"
-            android:onClick="reviewPastWorkouts"
-            android:padding="@dimen/activity_horizontal_margin"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/create_exercise"
+                android:onClick="createExercise"
+                android:padding="@dimen/activity_horizontal_margin"/>
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/create_workout"
+                android:onClick="createWorkout"
+                android:padding="@dimen/activity_horizontal_margin"/>
+        </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
