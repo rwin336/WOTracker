@@ -23,11 +23,27 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import java.util.Calendar;
 
 /**
- * Created by riwinters on 1/22/17.
+ * Copyright 2017 by rwin
+ * <p>
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the license.
+ * <p>
+ * Author: rwin
+ * Date:   2/4/17.
+ *
  */
 
-public class ElipticalWorkout extends AppCompatActivity {
-    public static final String TAG = "ElipticalWorkout";
+public class EllipticalWorkout extends AppCompatActivity {
+    public static final String TAG = "EllipticalWorkout";
     private TextView mWoStartedTextView;
     private Calendar calendar;
     private int mYear, mMonth, mDay;
@@ -41,7 +57,7 @@ public class ElipticalWorkout extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.eliptical_workout);
+        setContentView(R.layout.elliptical_workout);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -125,7 +141,7 @@ public class ElipticalWorkout extends AppCompatActivity {
      */
     public Action getIndexApiAction() {
         Thing object = new Thing.Builder()
-                .setName("ElipticalWorkout Page") // TODO: Define a title for the content shown.
+                .setName("EllipticalWorkout Page") // TODO: Define a title for the content shown.
                 // TODO: Make sure this auto-generated URL is correct.
                 .setUrl(Uri.parse("http://[ENTER-YOUR-URL-HERE]"))
                 .build();

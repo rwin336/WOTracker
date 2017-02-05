@@ -76,7 +76,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/eliptical_course"
             android:layout_columnWeight="1"
-            android:entries="@array/eliptical_course"
+            android:entries="@array/elliptical_course"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin">
         </Spinner>

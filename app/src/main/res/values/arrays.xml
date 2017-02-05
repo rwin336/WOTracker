@@ -124,7 +124,7 @@
         <item>40</item>
     </string-array>
 
-    <string-array name="eliptical_course">
+    <string-array name="elliptical_course">
         <item>GLUT</item>
         <item>RAND</item>
         <item>INTV</item>

@@ -1,8 +1,8 @@
 package rwin336.com.wotracker1;
 
+import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.content.Context;
 
 /**
  * Copyright 2017 by rwin
@@ -21,23 +21,17 @@ import android.content.Context;
  * <p>
  * Author: rwin
  * Date:   2/4/17.
- *
  */
 
-public class WorkoutDatabaseHelper extends SQLiteOpenHelper {
+public class EllipticalDatabaseHelper extends SQLiteOpenHelper {
 
-    private static WorkoutDatabaseHelper s_instance;
-    private static final String DB_NAME = "wos.sqlite";
+    private static final String DB_NAME = "elliptical.sqlite";
     private static final int VERSION = 1;
 
-    private static final String TABLE_WORKOUT = "workout";
-    private static final String COLUMN_WORKOUT_START_DATE = "start_date";
-
-    private static final String TABLE_EXERCISE = "exercise";
+    private static final String TABLE_ELLIPTICAL = "elliptical";
 
 
-
-    public WorkoutDatabaseHelper(Context context) {
+    public EllipticalDatabaseHelper(Context context) {
         super(context, DB_NAME, null, VERSION);
     }
 

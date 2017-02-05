@@ -26,7 +26,7 @@
             android:label="Workout 2:"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".ElipticalWorkout"
+            android:name=".EllipticalWorkout"
             android:label="Eliptical Workout:"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
