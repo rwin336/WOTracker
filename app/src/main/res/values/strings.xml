@@ -34,4 +34,6 @@
     <string name="strides">Strides</string>
     <string name="calories">Calories</string>
     <string name="resistance">Resistance</string>
+    <string name="drop_elliptical_db">Drop Elliptical DB</string>
+    <string name="drop_workout_db">Drop Workout DB</string>
 </resources>

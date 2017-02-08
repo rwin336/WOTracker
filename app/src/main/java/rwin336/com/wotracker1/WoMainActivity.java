@@ -110,6 +110,15 @@ public class WoMainActivity extends AppCompatActivity {
         Log.d(TAG, "Create Exercise");
     }
 
+    public void dropWorkoutTable(View v) {
+        Log.d(TAG, "Drop workout table");
+    }
+
+    public void dropEllipticalDB(View v) {
+        Log.d(TAG, "Drop session table");
+        EllipticalWorkoutManager ewm = EllipticalWorkoutManager.get(getApplication());
+        ewm.dropEllipticalDB();
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

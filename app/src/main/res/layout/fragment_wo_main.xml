@@ -66,5 +66,31 @@
                 android:onClick="createWorkout"
                 android:padding="@dimen/activity_horizontal_margin"/>
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/drop_elliptical_db"
+                android:onClick="dropEllipticalDB"
+                android:padding="@dimen/activity_horizontal_margin"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/drop_workout_db"
+                android:onClick="dropWorkoutDB"
+                android:padding="@dimen/activity_horizontal_margin"/>
+        </LinearLayout>
+
+
     </LinearLayout>
 </RelativeLayout>
